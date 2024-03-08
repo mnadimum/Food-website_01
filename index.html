@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food_Website_01</title>
+    
+    <!-----Favicon add-->
+    <link rel="shortcut icon" href="./images/favicon.png" type="img/png">
+    <!-----BOOSTRAP 5 CDN LINKS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--css style --->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive-style.css">
+
+
+
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!---navbar section-->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" class="img-fluid" alt="brand-logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
+                <!---<span class="navbar-toggler-icon"></span>-->
+              </button>
+
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav menu-navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#offers">Offers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#review">Review</a>
+                  </li>
+                  <li class="nav-item mt-3 mt-lg-0">
+                    <a class="main-btn" href="#contact">Order Online</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    <!---Banner Section-->
+    <section id="home" class="banner_wrapper">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5 text-center text-lg-start order-lg-1 order-2">
+            <h1><span>Dining</span><br>On the lake</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla sint quo quisquam consectetur corporis incidunt officia alias quaerat ullam nam!</p>
+            <a href="#" class="main-btn mt-4">View Menu</a>
+          </div>
+          <div class="col-lg-7 text-center order-lg-2 order-1">
+            <img src="./images/Food-Banner.png" alt="food-menu" class="img-fluid">
+          </div>
+        </div>
+        <div class="row top-menu mt-5">
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card">
+              <img src="./images/Menu/menu-1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card">
+              <img src="./images/Menu/menu-2.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card">
+              <img src="./images/Menu/menu-3.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card">
+              <img src="./images/Menu/menu-4.jpg" class="img-fluid" alt="">
+            </div>
+          </div>          
+            
+        </div>
+      </div>
+    </section>
+    <!-----About section-->
+    <section id="about" class="about_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-5 mb-4 mb-lg-0 order-lg-1 order-2">
+            <div class="card rounded-0">
+              <div class="card-body pt-5">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio molestias ullam illum quasi alias autem iure esse vero sapiente inventore?</p>
+                <a href="#" class="main-btn mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-8 col-lg-7 mb-4 mb-lg-0 order-lg-2 order-1">
+            <img src="./images/about-img.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!------Menu section-->
+    <section id="menu" class="menu_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <h3><span class="fst-italic">01</span>Fresh Food</h3>
+                <p class="fst-italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ducimus nisi porro id fugiat temporibus officiis dolore saepe ipsa quos!</p>
+                <a href="#" class="main-btn mt-4">Learn More</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <h3><span class="fst-italic">02</span>Dinner Meals</h3>
+                <p class="fst-italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ducimus nisi porro id fugiat temporibus officiis dolore saepe ipsa quos!</p>
+                <a href="#" class="main-btn mt-4">Learn More</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <h3><span class="fst-italic">03</span>Classic Menu</h3>
+                <p class="fst-italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ducimus nisi porro id fugiat temporibus officiis dolore saepe ipsa quos!</p>
+                <a href="#" class="main-btn mt-4">Learn More</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <h3><span class="fst-italic">04</span>Chef's Special</h3>
+                <p class="fst-italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ducimus nisi porro id fugiat temporibus officiis dolore saepe ipsa quos!</p>
+                <a href="#" class="main-btn mt-4">Learn More</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <h3><span class="fst-italic">05</span> Pasta & Pizza</h3>
+                <p class="fst-italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ducimus nisi porro id fugiat temporibus officiis dolore saepe ipsa quos!</p>
+                <a href="#" class="main-btn mt-4">Learn More</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <h3><span class="fst-italic">06</span>Chinese Meal</h3>
+                <p class="fst-italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ducimus nisi porro id fugiat temporibus officiis dolore saepe ipsa quos!</p>
+                <a href="#" class="main-btn mt-4">Learn More</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <h3><span class="fst-italic">07</span>French Food</h3>
+                <p class="fst-italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ducimus nisi porro id fugiat temporibus officiis dolore saepe ipsa quos!</p>
+                <a href="#" class="main-btn mt-4">Learn More</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <h3><span class="fst-italic">08</span>Spanish Food</h3>
+                <p class="fst-italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ducimus nisi porro id fugiat temporibus officiis dolore saepe ipsa quos!</p>
+                <a href="#" class="main-btn mt-4">Learn More</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <h3><span class="fst-italic">09</span>Continental Dishes</h3>
+                <p class="fst-italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ducimus nisi porro id fugiat temporibus officiis dolore saepe ipsa quos!</p>
+                <a href="#" class="main-btn mt-4">Learn More</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!------Offer Section------>
+    <section id="offers" class="offers_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-4">
+            <h2>Best Offers</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi itaque odit perspiciatis repudiandae, <br class="d-none d-md-block"> enim officia dolor tenetur labore reprehenderit! Quia.</p>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card rounded-0" style="background-image: url(./images/offers/offer-1.jpg)">
+              <div class="offer-text bg-black bg-opacity-50">
+                <h3 class="text-white">Double Burger</h3>
+                <h5>$8.50 <del class="fst-italic opacity-75">$10.50</del></h5>
+                <a href="#" class="main-btn mt-3">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card rounded-0" style="background-image: url(./images/offers/offer-2.jpg)">
+              <div class="offer-text bg-black bg-opacity-50">
+                <h3 class="text-white">Donuts</h3>
+                <h5>$8.50 <del class="fst-italic opacity-75">$10.50</del></h5>
+                <a href="#" class="main-btn mt-3">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card rounded-0" style="background-image: url(./images/offers/offer-3.jpg)">
+              <div class="offer-text bg-black bg-opacity-50">
+                <h3 class="text-white">Crispy Chicken</h3>
+                <h5>$8.50 <del class="fst-italic opacity-75">$10.50</del></h5>
+                <a href="#" class="main-btn mt-3">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card rounded-0" style="background-image: url(./images/offers/offer-4.jpg)">
+              <div class="offer-text bg-black bg-opacity-50">
+                <h3 class="text-white">Chicken Noodles</h3>
+                <h5>$8.50 <del class="fst-italic opacity-75">$10.50</del></h5>
+                <a href="#" class="main-btn mt-3">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card rounded-0" style="background-image: url(./images/offers/offer-5.jpg)">
+              <div class="offer-text bg-black bg-opacity-50">
+                <h3 class="text-white">Double Burger</h3>
+                <h5>$8.50 <del class="fst-italic opacity-75">$10.50</del></h5>
+                <a href="#" class="main-btn mt-3">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card rounded-0" style="background-image: url(./images/offers/offer-6.jpg)">
+              <div class="offer-text bg-black bg-opacity-50">
+                <h3 class="text-white">Double Burger</h3>
+                <h5>$8.50 <del class="fst-italic opacity-75">$10.50</del></h5>
+                <a href="#" class="main-btn mt-3">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!------Review Section-->
+    <section id="review" class="review_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-7 col-sm-7">
+            <div class="card rounded-0 bg-white p-2">
+              
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-slide="carousel"> 
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="carousel-caption">
+                      <img src="./images/review/img-2.png" class="d-block w-100" alt="...">
+                      <h3>Pizza & Roll</h3>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, quisquam.</p>
+                      <a href="#" class="main-btn mt-4">View Menu</a>
+                    </div>
+                    
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption">
+                      <img src="./images/review/img-1.png" class="d-block w-100" alt="...">
+                      <h3>Burgers</h3>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, quisquam.</p>
+                      <a href="#" class="main-btn mt-4">View Menu</a>
+                    </div>
+                    
+                  </div>
+                  
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!---Footer Section-->
+    <section id="contact" class="footer_wrapper">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 col-md-6 text-center text-md-start">
+            <div class="footer-logo mb-3 mb-md-0">
+              <img src="./images/logo.png"  alt="">
+
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-md-6 social-icon">
+            <ul style="list-style: none; display: flex; justify-content: center; text-align: center;">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </li>
+
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="copyright-text mb-3 mb-lg-0">
+              <p class="mb-0 text-copy"> Copyright @ 2024, <b style="color: blueviolet;">Md Nadim,</b> This website designed by a self-taught programmer. All rights are reserved.</p>
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!---Boostrap5 js cdn link-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!---->
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>
